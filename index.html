@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/shower-ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+        .strike {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body class="shower list">
+
+<header class="caption">
+    <h1 lang="en">Around the development (ru)</h1>
+</header>
+
+<section id="cover" class="slide">
+    <h2 lang="en">Around the development</h2>
+    <p lang="en">Brought to you by <a href="https://github.com/NumminorihSF">Konstantin Petryaev</a></p>
+    <style>
+        #cover h2 {
+            margin: 30px 0 0;
+            text-align: center;
+            font-size: 70px;
+        }
+
+        #cover p {
+            margin: 10px 0 0;
+            text-align: center;
+            font-style: italic;
+            font-size: 20px;
+        }
+    </style>
+</section>
+
+<section class="slide">
+    <h2 class="shout">Почему вы занимаетесь разработкой?</h2>
+</section>
+
+<section class="slide">
+    <h2>Возможные причины, почему вы в IT</h2>
+    <ul>
+        <li>Удовольствие от написания кода</li>
+        <li class="next">Удовольствие от решения интересных задач</li>
+        <li class="next">Машины лучше людей</li>
+        <li class="next">Деньги</li>
+        <li class="next">Печеньки</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2 class="shout">За это не платят денег</h2>
+</section>
+
+<section class="slide">
+    <h2>Удовольствие от кода</h2>
+    <ul>
+        <li>Бизнесу нужно решение проблем</li>
+        <li class="next">Иногда решать эти проблемы не приятно</li>
+        <li class="next">Работа с чужим кодом может приносить боль</li>
+        <li class="next">Хочешь написать идеальный код - ты его никогда не допишешь</li>
+    </ul>
+    <p class="next"><strong>Но!</strong> Если не получаешь удовольствия от работы, то будет тяжело</p>
+</section>
+
+<section class="slide">
+    <h2>Удовольствие от задач</h2>
+    <ul>
+        <li>Бизнесу все еще нужно решение его проблемы</li>
+        <li class="next">Проект никогда не состоит только из интересных задач</li>
+        <li class="next">Часть задач - малоинтересные баги</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Машины лучше людей</h2>
+    <ul>
+        <li>Работать с людьми придется</li>
+        <!-- Чем выше ты по карьерной лестнице, тем больше общения -->
+        <li class="next">Рост заработной платы и карьерный рос завясят от навыков общения</li>
+        <li class="next">Мы работает для людей</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Деньги / печеньки</h2>
+    <ul>
+        <li>Нужно вкалывать</li>
+        <li class="next">Нужно постоянно учиться</li>
+        <li class="next">Велика вероятность перегореть</li>
+        <li class="next">Хотите ли вы потратить жизнь на работу ради этого?</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Ради чего пишу код я</h2>
+    <ul>
+        <li>Ради процесса</li>
+        <li class="next">Ради результата</li>
+        <li class="next">Для решения бизнес-задачи</li>
+        <li class="next">Для решения проблем пользователей</li>
+        <li class="next">Все вышеперечисленное</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2 class="shout">Разработка - не только кодирование</h2>
+</section>
+
+<section class="slide">
+    <h2 class="shout">Митинги</h2>
+</section>
+
+<section class="slide">
+    <h2><span lang="en">Stand-up</span> митинги</h2>
+    <ul>
+        <li>Выяснить текущий прогресс команды</li>
+        <li class="next">Выяснить текущие проблемы, договориться, когда будете решать</li>
+        <!-- не решить -->
+        <!-- Выяснить, чем можно помочь команде -->
+        <li class="next">Планирование, уточнение общих вопросов</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Как можно испортить митинг</h2>
+    <ul>
+        <li>Сдвинуть время митинга</li>
+        <li class="next">Не придти</li>
+        <!-- Если знаешь что не придешь - предупреди -->
+        <li class="next">Опоздать</li>
+        <!-- Предупреди / не удобно время - обговаривай -->
+        <li class="next"><q>Втыкать</q> в телефон/компьютер</li>
+        <li class="next">Витать в своих мыслях</li>
+        <li class="next">Оставить микрофон включенным, находясь в шумном месте</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Как можно испортить митинг</h2>
+    <ul>
+        <li>Пытаться везде вставить свои 5 копеек</li>
+        <li class="next">Уводить обсуждение в сторону от основной темы</li>
+        <li class="next">Пытаться решить все вопросы <q>здесь и сейчас</q></li>
+        <li class="next">Слишком углубляться в тему</li>
+        <li class="next">Не давать достаточно информации</li>
+        <li class="next">Общаться техническим языком, если на митинге присутствует нетехнарь</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2 class="shout" lang="en">Code review</h2>
+</section>
+
+<section class="slide">
+    <h2 lang="en">Code review</h2>
+    <ul>
+        <li class="strike">Инструмент обучения новичков</li>
+        <!-- Если используется как основной - все плохо -->
+        <!-- Но давайте начистоту: не поздновато ли? Не будет ли более правильным рассказать новичку об этих правилах до допуска его к коду? Ведь цена ошибки очень высока — редко новички сразу работают так, как вам нужно. А значит, задача будет возвращаться и возвращаться на доработку. А значит, продукт станет доступен пользователю позже, чем мог бы.
+
+Получается, в процесс, продолжительность которого трудно оценить, мы добавляем ещё один, временные затраты на который ещё менее предсказуемы. Таким образом мы увеличиваем время, необходимое на доставку задачи пользователю, на ещё более неизвестную величину.
+-->
+        <li class="next strike">Свежий взгляд на код</li>
+        <li class="next strike">Система документирования кода</li>
+        <li class="next">Процесс контроля:<ul>
+            <li>правильности выполнения задачи</li>
+            <!-- Не забываем, что это этап контроля. Соответственно, архитектура решения должна быть оговорена заранее. На данном этапе мы должны удостовериться, что договорённости соблюдены.
+
+Также стоит иметь в виду, что это один из самых сложных, ответственных и трудоёмких моментов в ревью кода. Человек, выступающий в роли ревьюера, должен быть готов идти на компромиссы и помнить о том, что идеальных решений не бывает. И если он видит в задаче решение, которое по тем или иным причинам считает неидеальным, то он должен в первую очередь примерить его на нужды бизнеса, а не на свой перфекционизм.
+
+Ревьюер может предложить свою реализацию, которую он считает более правильной с точки зрения best practices, паттернов и других вещей. Но тут очень важно понимать, что решение, которое он видит в коде, лучше его собственного уже одним лишь тем, что оно готово. Оно уже написано. Разработчик потратил своё время на реализацию, интеграцию этого куска кода с другими элементами, тестирование и написание автотестов и так далее. И исправлять код следует только в том случае, если решение заведомо неправильное.-->
+
+            <li>соблюдения договоренностей <!-- линтеры --></li>
+            <li>поддерживаемости решения <!-- магические строки, тесты, документация --></li>
+        </ul></li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Улучшить процесс CR</h2>
+    <ul>
+        <li>Договоритесь о форматировании <q>на берегу</q></li>
+        <li class="next"><q>Машины должны страдать</q></li>
+        <li class="next">Не задерживайте ревью</li>
+        <li class="next">Не пытайтесь сделать весь код идеальным</li>
+        <li class="next">Используйте примеры с кодом</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Улучшить процесс CR</h2>
+    <ul>
+        <li>Используйте <q>мы</q> вместо <q>ты</q></li>
+        <!-- либо не использовать ничего -->
+        <li class="next">Будьте вежливы</li>
+        <li class="next">Принципы &gt; мнения</li>
+        <li class="next"><q>Забудьте</q>, кто писал код</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Полезные ссылки</h2>
+    <ul>
+        <li><a href="https://docs.google.com/document/d/1X39HepLOXg2cRhDCmn3ZIfk9vo2-4TB-gS82VszHZnA/edit?usp=sharing" lang="en">Prepare the CR</a></li>
+        <li><a href="https://docs.google.com/document/d/1SpTjwuT4PBCJqjqSfddq4kn2J9va-O4l-BUgvS18aMQ/edit?usp=sharing" lang="en">CR Guideline</a></li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2 class="shout">Написание документации</h2>
+</section>
+
+<section class="slide">
+    <h2>Документирование кода</h2>
+    <ul>
+        <li>Добавляет ясность в код <!-- WTF --></li>
+        <li class="next">Позволяет использовать код без его чтения</li>
+        <li class="next">Позволяет удобнее писать код <!-- IDE, автокомплиты, подсказки --></li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Проблемы документирования</h2>
+    <ul>
+        <li>Нужно больше времени на написание фичи</li>
+        <li class="next">Для большинства программистов это скучно</li>
+        <li class="next">Сложно писать хорошую документацию</li>
+        <li class="next"><q>Где хранить?</q></li>
+        <li class="next">Тяжело поддерживать документацию в актуальном состоянии</li>
+        <li class="next">Код все равно придется читать</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Почему нужно ее писать</h2>
+    <ul>
+        <li><q>Самодокументируемый код</q> будет разный для разных людей</li>
+        <!-- ангуляр комманда со своими правилами -->
+        <!-- границы применимости -->
+        <li class="next">Код, который мы пишем - не наша собственность</li>
+        <li class="next">Отсутствие комментариев - самый простой способ указать что <q>код плохой</q></li>
+        <li class="next">Экономит наши деньги</li>
+        <li class="next">Новый человек быстрее вливается в проект</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2 class="shout"><span lang="en">Unit</span>-тесты</h2>
+</section>
+
+<section class="slide">
+    <h2>Проблемы <span lang="en">unit</span>-тестирования</h2>
+    <ul>
+        <li>Нужно больше времени на написание фичи</li>
+        <li class="next">Сложно писать хорошие тесты</li>
+        <li class="next">Сложно писать код, который удобно/легко тестировать</li>
+        <li class="next">Нужно тратить время на поддержку тестов</li>
+        <li class="next">Описание теста валидируется только <q>руками</q></li>
+        <li class="next"><span lang="en">Coverage</span> в 100% не гарантирует ничего</li>
+        <li class="next">Никак не защищает от ошибок интеграции модулей</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Хороший <span lang="en">unit</span>-тест</h2>
+    <ul>
+        <li>Позволяет проверять модули без интеграции в приложение</li>
+        <li class="next">Уменьшает вероятность регрессий</li>
+        <li class="next">Является примером использования модуля</li>
+        <li class="next">Проверяет конкретный <span lang="en">use-case</span></li>
+        <li class="next">Значительно упрощает рефакторинг</li>
+        <li class="next">Экономит время</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2 class="shout">Обучение и <span lang="en">sharing</span> знаний</h2>
+</section>
+
+<section class="slide">
+    <h2 class="shout">Я знаю, что ничего не знаю</h2>
+</section>
+
+<section class="slide">
+    <img src="./danning-krjuger.jpg" alt="График эффекта Даннинга-Крюгера" width="100%">
+</section>
+
+<section class="slide">
+    <h2>Не будем никого обучать</h2>
+    <ul>
+        <li>Начинающий разработчик всегда совершает больше ошибок, поэтому не стоит его нанимать</li>
+        <!-- Ошибка старшего разработчика, как правило, обходится много дороже. Удаление базы - нет бэкапов -->
+        <li class="next">Повышение затрат времени и внимания старших разработчиков</li>
+        <!-- Слишком часто спрашивают что-либо по проекту? возможно нет документации -->
+        <li class="next">Не каждый старший разработчик хочет/может заниматься обучением</li>
+        <li class="next">Большая часть более-менее детальной информации все-равно будет забыта</li>
+        <li class="next"><q>То что я рассказываю - очевидно всем</q></li>
+        <li class="next">Те, кого я обучу меня заменят</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Зачем обучать и делится знаниями</h2>
+    <ul>
+        <li>Команда сможет делать больше задач</li>
+        <li class="next">Команда сможет делать более сложные задачи</li>
+        <li class="next">Экономия времени</li>
+        <li class="next">Снижение рисков <!-- дедлайны, bus-фактор --></li>
+        <li class="next">Обучить <q>правильному подходу</q> с нуля - проще, чем переучивать</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Зачем обучать и делится знаниями</h2>
+    <ul>
+        <li>Упорядочивание собственных знаний</li>
+        <li class="next">Выработка более глубокого понимания темы и выявления <q>пробелов</q></li>
+        <li class="next">Выработка у обучаемых правильного подхода</li>
+        <li class="next">Возможность получить конструктивную критику</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2 class="shout">Спасибо за внимание</h2>
+</section>
+
+<section class="slide">
+    <h2 class="shout">Вопросы?</h2>
+</section>
+
+<footer class="badge">
+    <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+</footer>
+
+<div class="progress"></div>
+
+<script src="node_modules/shower-core/shower.min.js"></script>
+<!-- Copyright © 2018 Yours Truly, Famous Inc. -->
+<script>
+  if (/ignore-next/.test(window.location.search)) {
+    Array.prototype.forEach.call(document.querySelectorAll('.next'), function(element) {
+      element.classList.remove('next');
+    });
+  }
+</script>
+</body>
+</html>
